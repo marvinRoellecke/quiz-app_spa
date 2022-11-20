@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  display: grid;
+  grid-template-rows: 50px auto 50px;
+  height: 100vh;
+}
+
+main {
+  overflow-y: scroll;
+}
+
+header,
+footer {
+  background-color: aquamarine;
+}
